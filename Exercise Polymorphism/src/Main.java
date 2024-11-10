@@ -30,7 +30,7 @@ try {
                 String modelname = input.next();
                 System.out.println("Give me all days that you want to: ");
                 int days = input.nextInt();
-                Vehicle c1 = new Car("modelname", days);
+                Vehicle c1 = new Car(modelname, days);
                 rentedVehicles.add(c1);
                 c1.displayDetails();
                 break;
@@ -72,7 +72,7 @@ try {
 
         }
 }catch(InputMismatchException e){
-    System.out.println("put the correct");
+    System.out.println("put the correct type");
 }
 
         }
